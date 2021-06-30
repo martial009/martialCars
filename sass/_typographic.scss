@@ -1,0 +1,36 @@
+.price{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.location{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.number{
+    font-weight: 500;
+    color: var(--textColor);
+    font-size: 2.5rem;
+
+    @media  screen and (max-width: 64em) {
+        transform: rotate(-90deg);       
+    }
+}
+
+.top {
+    font-size: 2rem;
+    @media  screen and (max-width: 64em) {
+        color: var(--colorSecondary);     
+    }
+}
+
+.buttom {
+    font-size: 1.5rem;
+    font-weight: 400;
+    @media  screen and (max-width: 64em) {
+        color: var(--colorSecondary);     
+    }
+}

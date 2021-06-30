@@ -1,0 +1,69 @@
+.underline{
+    height: 1rem;
+    width: 100%;
+    background-color: var(--colorTetiary);
+    margin-bottom: 1rem;
+
+    @media  screen and (max-width: 64em) {
+       display: none;      
+    }
+
+}
+
+.productDisplay{
+    margin-top: -4rem;
+    margin-left: 5rem;
+
+    @media  screen and (max-width: 64em) {
+       margin: 0;   
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);      
+    }
+
+    @media  screen and (max-width: 50em) {
+         width: 40rem;   
+         margin-top: -15rem;
+     }
+}
+
+.btn  {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--btnColor);
+}
+
+.fullDetailsBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--textColor);
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    width: 13rem;
+    cursor: pointer;
+
+
+    @media  screen and (max-width: 64em) {
+        background-color: var(--colorSecondary);
+        height: 7rem;
+        width: 25rem;
+        justify-content: space-around;
+
+        border-radius: 2rem;     
+    }
+}
+
+.Seacicons{
+    @media  screen and (max-width: 64em) {
+        position: absolute;
+        right: 1rem;    
+     }
+}

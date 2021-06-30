@@ -1,0 +1,14 @@
+{
+  "name": "martialCars",
+  "version": "1.0.0",
+  "description": "Figma Site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "Figma"
+  ],
+  "author": "MartialDee",
+  "license": "ISC"
+}
